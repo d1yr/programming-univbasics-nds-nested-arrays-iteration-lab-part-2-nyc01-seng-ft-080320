@@ -8,7 +8,7 @@ while row_index < src.count do
     #   Array at row_index
     #   Element of the inner array at element_index
     #   The first character of that element...
-    if src[row_index][element_index][] <= src.each do
+    if src[row_index][element_index][element] <= src.each do
       outer_results << src[row_index][element_index]
     end
     end
