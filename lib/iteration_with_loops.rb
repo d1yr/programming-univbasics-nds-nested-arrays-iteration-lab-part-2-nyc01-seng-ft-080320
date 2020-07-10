@@ -11,6 +11,7 @@ while row_index < src.count do
     if src[row_index][element_index][integer] <= src.each do
       outer_results << src[row_index][element_index]
     end
+    end
     element_index += 1
   end
   row_index += 1
