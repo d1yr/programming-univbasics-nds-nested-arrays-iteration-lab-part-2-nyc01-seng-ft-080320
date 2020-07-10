@@ -3,7 +3,7 @@ outer_results = []
 src.each do |i|
   outer_results << i.min
 end
-outer_results = src
+outer_results
 end
 
 
