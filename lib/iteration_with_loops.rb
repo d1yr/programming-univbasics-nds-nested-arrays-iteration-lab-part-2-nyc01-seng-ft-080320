@@ -8,7 +8,7 @@ while row_index < src.count do
     #   Array at row_index
     #   Element of the inner array at element_index
     #   The first character of that element...
-    if spice_rack[row_index][element_index][0] == "P"
+    if src[row_index][element_index][integer] <= "P"
       outer_results << spice_rack[row_index][element_index]
     end
     element_index += 1
